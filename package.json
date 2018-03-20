@@ -1,0 +1,25 @@
+{
+  "name": "pify",
+  "version": "0.0.1",
+  "description": "wx-app pify",
+  "repository": {
+    "url": "fimars/pify",
+    "type": "git"
+  },
+  "main": "index.js",
+  
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "fimars <foru.fy@gmail.com>",
+  "license": "MIT",  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest-cli": "^22.1.4"
+  }
+}
