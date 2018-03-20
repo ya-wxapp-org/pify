@@ -1,6 +1,6 @@
 # pify
 
-[![NPM version](https://img.shields.io/npm/v/pify.svg?style=flat)](https://npmjs.com/package/pify) [![NPM downloads](https://img.shields.io/npm/dm/@ya-wxapp-org/pify.svg?style=flat)](https://npmjs.com/package/pify) 
+[![NPM version](https://img.shields.io/npm/v/@ya-wxapp-org/pify.svg?style=flat)](https://npmjs.com/package/pify) [![NPM downloads](https://img.shields.io/npm/dm/@ya-wxapp-org/pify.svg?style=flat)](https://npmjs.com/package/pify) 
 
 ## Install
 
@@ -11,7 +11,7 @@ yarn add @ya-wxapp-org/pify
 ## Usage
 
 ```js
-const pify = require('pify')
+const pify = require('@ya-wxapp-org/pify')
 
 const info =  await pify(wx.getUserInfo)({
     withCredentials: true
